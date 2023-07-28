@@ -1,9 +1,11 @@
-import NavBar from "../../navbar";
+import NavBar from "../../components/navbar"
 
-const App = () => {
+
+const App = (props) => {
   return (
    <>
-    <NavBar />
+    <NavBar/>
+  
    </>
   );
 }
