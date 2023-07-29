@@ -5,7 +5,7 @@ import logoImage from "../../assets/Group 180.png"
 const Logo = () => (
     <div className={css.Logo}>
       <img src={logoImage} alt=""/>
-      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" className="btn btn-primary">Primary</button>
     </div>
   );
 

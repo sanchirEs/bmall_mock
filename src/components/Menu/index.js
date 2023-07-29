@@ -7,20 +7,13 @@ const Menu = (props) => {
         <>
         <div>
             <ul className={css.Menu}>
-            {props.userId ? (
-                <>
-                <MenuItem exact link="/">
-                    ШИНЭ ЗАХИАЛГА
-                </MenuItem>
-                <MenuItem link="/orders">ЗАХИАЛГАНУУД</MenuItem>
-                <MenuItem link="/logout">ГАРАХ</MenuItem>
-                </>
-            ) : (
-                <>
-                <MenuItem link="/login">НЭВТРЭХ</MenuItem>
-                <MenuItem link="/signup">БҮРТГҮҮЛЭХ</MenuItem>
-                </>
-            )}
+             <>
+                <MenuItem link="/freeship">Хүргэлт үнэгүй</MenuItem>
+                <MenuItem link="/brand">Брэнд бараа</MenuItem>
+                <MenuItem link="/new">Шинэ бараа</MenuItem>
+                <MenuItem link="/sale">Хямдралтай</MenuItem>
+            </>
+                
             </ul>
         </div>
         </>

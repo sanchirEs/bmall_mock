@@ -10,10 +10,10 @@ const App = (props) => {
    <>
     <NavBar/>
     <Routes >
-      <Route path="/freeship" component={FreeShipProductPage} />
-      <Route path="/brand" component={BrandProductPage} />
-      <Route path="/new" component={NewProductPage} />
-      <Route path="/sale" component={SaleProductPage} />
+      <Route path="/freeship" element={<FreeShipProductPage/>} />
+      <Route path="/brand" element={<BrandProductPage/>} />
+      <Route path="/new" element={<NewProductPage/>} />
+      <Route path="/sale" element={<SaleProductPage/>} />
     </Routes>
   
    </>

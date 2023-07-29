@@ -5,7 +5,7 @@ import css from "./style.module.css"
 const MenuItem = (props) => {
     return (
         <li className={css.MenuItem}>
-            <NavLink exact={props.exact} activeClassName={css.active} to={props.link}>
+            <NavLink exact={props.exact} to={props.link}>
             {props.children}
             </NavLink>
         </li>

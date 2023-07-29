@@ -3,7 +3,7 @@ import React from "react";
 const FreeShipProductPage = () => {
     return (
         <>
-         FreeShipProductPage
+         <p>FreeShipProductPage</p>
         </>
     )
 }
