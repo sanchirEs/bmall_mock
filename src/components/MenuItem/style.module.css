@@ -1,12 +1,28 @@
 /* index.css */
+
+ul {
+   display: block;
+   list-style-type: disc;
+   margin-block-start: 0em;
+   margin-block-end: 0em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   padding-inline-start: 0px;
+}
 ul li a {
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+   justify-content: center;
+   text-align: center;
+   padding: 20px 25px;
+   border-radius: 4px;
+
     color: #000;
  }
   
  ul li a:hover {
-    color: #00a8ff;
+
+    background-color: #ff007a;
  }
   
- ul li a.active {
-    color: #00a8ff;
- }

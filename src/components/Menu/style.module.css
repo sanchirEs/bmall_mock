@@ -2,12 +2,23 @@
     list-style: none;
     display: flex;
     flex-flow: column;
-    margin: 0px;
-    padding: 0px;
+
+    padding-left: 150px;
+
     height: 100%;
     align-items: center;
-    
+    text-decoration: none;
+    width: 60%;
+    font-size: 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+
   }
+
+
+
+
+  
   
   @media (min-width: 500px) {
     .Menu {
