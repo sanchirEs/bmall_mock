@@ -1,7 +1,21 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Toolbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: center;
+}
+
 .Navbar {
+  display: flex;
   height: 140px;
   width: 100%;
-
+  flex-direction: column;
   top: 48px;
   left: 0;
   display: flex;
@@ -17,7 +31,6 @@
 .Links {
   display: flex;
   align-items: center;
-  width: 100%;
 }
 
 .Links a{
@@ -28,11 +41,10 @@
 }
 
 .Rectangle {
-
-    width: 100%;
-    height: 35px;
-    background-color: #ff007a;
-  }
+  width: 100%;
+  height: 35px;
+  background-color: #ff007a;
+}
 
 
 .Searchbox {
@@ -43,8 +55,8 @@
   border: 2px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
-  margin: 40px 40px;
-  width: 450%;
+  margin: 40px 74px 40px 40px;
+  width: 725px;
   min-width: 150px; 
   padding: 18px 20px 18px 40px;
 }

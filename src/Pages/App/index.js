@@ -4,6 +4,7 @@ import FreeShipProductPage from "../FreeShipProductPage";
 import BrandProductPage from "../BrandProductPage";
 import NewProductPage from "../NewProductPage";
 import SaleProductPage from "../SaleProductPage";
+import HomePage from "../HomePage";
 
 
 const App = (props) => {
@@ -12,6 +13,7 @@ const App = (props) => {
       <NavBar />
 
       <Routes>
+        <Route path="/" element={<HomePage />} />
         <Route path="/freeship" element={<FreeShipProductPage />} />
         <Route path="/brand" element={<BrandProductPage />} />
         <Route path="/new" element={<NewProductPage />} />

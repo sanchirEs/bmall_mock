@@ -1,27 +1,36 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .Menu {
-    list-style: none;
-    display: flex;
-    flex-flow: column;
+  width: 1170px;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  height: 58px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Rubik';
+  justify-content: start;
 
-    padding-left: 150px;
+  align-items: center;
 
-    height: 100%;
-    align-items: center;
-    text-decoration: none;
-    width: 60%;
-    font-size: 20px;
-    box-sizing: border-box;
-    justify-content: space-between;
+}
 
-  }
-
-
-
+.Category {
+  background-color: #ff007a;
+  color: white;
+  width: 270px;
+  text-align: center;
+  padding: 20px 0;
+  vertical-align: middle;
+}
 
   
-  
-  @media (min-width: 500px) {
-    .Menu {
-      flex-flow: row;
-    }
+@media (min-width: 500px) {
+  .Menu {
+    flex-flow: row;
   }
+}
