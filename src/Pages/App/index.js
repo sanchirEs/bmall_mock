@@ -5,12 +5,14 @@ import BrandProductPage from "../BrandProductPage";
 import NewProductPage from "../NewProductPage";
 import SaleProductPage from "../SaleProductPage";
 import HomePage from "../HomePage";
+import Footer from "../../components/footer/footer";
 
 
 const App = (props) => {
   return (
     <>
       <NavBar />
+      
 
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -19,6 +21,7 @@ const App = (props) => {
         <Route path="/new" element={<NewProductPage />} />
         <Route path="/sale" element={<SaleProductPage />} />
       </Routes>
+      <Footer />
     </>
   );
 };
