@@ -2,11 +2,11 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import css from "./style.module.css";
 
-const MenuItem = (props) => {
+const ListItem = (props) => {
   return (
     <>
       
-      <li className={css.MenuItem}>
+      <li >
         <NavLink exact={props.exact} to={props.link} className={css.active}>
           {props.children}
         </NavLink>
@@ -15,4 +15,4 @@ const MenuItem = (props) => {
   );
 };
 
-export default MenuItem;
+export default ListItem;

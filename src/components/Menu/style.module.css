@@ -13,20 +13,13 @@
   font-size: 14px;
   font-weight: bold;
   font-family: 'Rubik';
-  justify-content: start;
+  justify-content: flex-start;
 
   align-items: center;
 
 }
 
-.Category {
-  background-color: #ff007a;
-  color: white;
-  width: 270px;
-  text-align: center;
-  padding: 20px 0;
-  vertical-align: middle;
-}
+
 
   
 @media (min-width: 500px) {
