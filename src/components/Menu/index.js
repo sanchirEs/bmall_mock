@@ -1,17 +1,18 @@
 import React from "react";
-import MenuItem from "../MenuItem";
+import ListItem from "../ListItem";
 import css from "./style.module.css"
+import Category from "../Category";
 
 const Menu = (props) => {
     return (
         <>
         <div className={css.Container}>
             <ul className={css.Menu}>
-                <div className={css.Category}>Барааны ангилал</div>
-                <MenuItem link="/freeship">Хүргэлт үнэгүй</MenuItem>
-                <MenuItem link="/brand">Брэнд бараа</MenuItem>
-                <MenuItem link="/new">Шинэ бараа</MenuItem>
-                <MenuItem link="/sale">Хямдралтай</MenuItem>                
+                <Category />
+                <ListItem link="/freeship">Хүргэлт үнэгүй</ListItem>
+                <ListItem link="/brand">Брэнд бараа</ListItem>
+                <ListItem link="/new">Шинэ бараа</ListItem>
+                <ListItem link="/sale">Хямдралтай</ListItem>                
             </ul>
         </div>
         </>

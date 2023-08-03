@@ -1,11 +1,15 @@
 .Container {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: beige;
+    width: 1170px;
+    justify-content: flex-end;
+    background-color: white;
+    margin: auto;
+    align-self: center;
+
 }
 
 .StellaMcCartneyHero {
     width: 900px;
     height: 470px;
+    
 }

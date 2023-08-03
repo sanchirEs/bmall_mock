@@ -1,0 +1,30 @@
+.Container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 528px;
+}
+
+.Category {
+  background-color: #ff007a;
+  color: white;
+  width: 270px;
+  text-align: center;
+  padding: 0 0;
+  vertical-align: middle;  
+  display: flex;
+  flex-flow: column;
+  z-index: 200;
+
+}
+
+
+
+  
+@media (min-width: 500px) {
+  .Menu {
+    flex-flow: row;
+  }
+}
