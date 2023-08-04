@@ -6,11 +6,12 @@ import NewProductPage from "../NewProductPage";
 import SaleProductPage from "../SaleProductPage";
 import HomePage from "../HomePage";
 import Footer from "../../components/footer/footer";
+import css from "./style.module.css"
 
 
 const App = (props) => {
   return (
-    <>
+    <div className={css.Body}>
       <NavBar />
       
 
@@ -22,7 +23,7 @@ const App = (props) => {
         <Route path="/sale" element={<SaleProductPage />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 };
 

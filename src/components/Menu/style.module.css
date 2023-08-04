@@ -19,6 +19,19 @@
 
 }
 
+.Head{
+  display: flex;
+  flex-direction: row;
+  width: 270px;
+  background-color: #ff007a;
+  color: white;
+  height: 56px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Rubik';
+  border-style: none;
+  align-items: center;
+}
 
 
   
