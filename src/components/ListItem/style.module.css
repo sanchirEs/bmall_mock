@@ -1,8 +1,6 @@
 /* index.css */
 
 ul {
-   display: block;
-   list-style-type: disc;
    margin-block-start: 0em;
    margin-block-end: 0em;
    margin-inline-start: 0px;
@@ -15,8 +13,8 @@ ul li a {
    text-decoration: none;
    justify-content: center;
    text-align: center;
-   padding: 20px 30px;
-
+   height: 58px;
+   width: 180px;
    color: #424852;
  }
   
