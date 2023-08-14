@@ -2,28 +2,20 @@ import React from "react";
 import css from "./style.module.css";
 import Logo from "../Logo";
 
-import { Link } from "react-router-dom";
-import { HeartStraight, ShoppingCart, UserCircle } from "phosphor-react";
+
 import Menu from "../Menu";
+import Icons from "../Icons";
 
 const NavBar = () => {
   return (
     <>
       <div className={css.Container}>
-        <div className={css.Rectangle}></div>
+        <div className={css.Rectangle}><span className={css.CheckOutCode}>20% off! - Check out code: Zitty4</span></div>
         <div className={css.Toolbar}>
           <Logo />
-          <input className={css.Searchbox} type="search" />
+          <input className={css.Searchbox} type="search" placeholder="Бараа хайх "/>
           <div className={css.Links}>
-            <Link to="/liked">
-              <HeartStraight size={42} color="#c70a83" weight="thin" />
-            </Link>
-            <Link to="/store">
-              <ShoppingCart size={42} color="#c70a83" weight="thin" />
-            </Link>
-            <Link to="/">
-              <UserCircle size={42} color="#c70a83" weight="thin" />
-            </Link>
+            <Icons />
           </div>
         </div>
         <Menu />

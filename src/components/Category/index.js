@@ -37,9 +37,9 @@ const FireNav = styled(List)({
 export default function Category() {
   return (
     <Box sx={{ display: "absolute" }}>
-      <Paper elevation={0} sx={{ maxWidth: 270 }}>
+      <Paper elevation={0} sx={{ maxWidth: 270, maxHeight: 470 }}>
         <FireNav component="nav" disablePadding>
-          <Box sx={{ bgcolor:"rgb(255, 255, 255)" , pb: 0}}>
+          <Box sx={{ bgcolor:"rgb(255, 255, 255)" , p: 0}}>
             {data.map((item) => (
               <ListItemButton
                 key={item.label}
