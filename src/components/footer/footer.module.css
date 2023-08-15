@@ -54,7 +54,7 @@
 
 .footer__container {
     height: auto;
-    width: 100%;
+    width: auto;
     background-color: #fff;
     display: flex;
     flex-direction:column;
@@ -90,7 +90,7 @@
 }
 .footer__help__container {
     width: 300px;
-    height: 360px;
+    height: 400px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -119,13 +119,15 @@
 
 .footer__help__header {
     height: 40px;
-    width: 70%;
-    margin: auto;
+    width: 60%;
+    margin: 0%;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 0%;
-    padding-bottom: 20px;
+    padding-bottom: 0%;
+    
     
     
 }
@@ -134,9 +136,9 @@
     font-size: 1.1rem;
     font-weight: 600;
     align-self: center;
-    height: 10%;
+    height: 15px;
     padding: 0%;
-    margin-top: 0%;
+    margin-bottom: 50px;
 
 }
 
@@ -144,37 +146,46 @@
     margin: 0%;
     padding: 0%;
     height: 70%;
-    width: 70%;
+    width: 60%;
     list-style-type: none;
     display: flex;
     flex-direction: column;
 }
-
+.fotter__customer__links li {
+    margin: 0%;
+    padding: 0%;
+    height: 40px;
+}
 .fotter__customer__links a:link {
     text-decoration: none;
     margin: 0%;
-    padding: 10px;
+    padding: 0%;
 }
 
 .fotter__help__links {
     margin: 0%;
     padding: 0%;
     height: 70%;
-    width: 70%;
+    width: 60%;
     list-style-type: none;
     display: flex;
     flex-direction: column;
+}
+.fotter__help__links li {
+    margin: 0%;
+    padding: 0%;
+    height: 40px;
 }
 
 .fotter__help__links a:link {
     text-decoration: none;
     margin: 0%;
-    padding: 10px;
+    padding: 0%;
 }
 
 .footer__contact__container {
     width: 380px;
-    height: 330px;
+    height: 410px;
     display: flex;
     justify-content: center;
     flex-direction: column;
