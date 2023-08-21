@@ -4,14 +4,48 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
+import LocalGroceryStoreOutlinedIcon from '@mui/icons-material/LocalGroceryStoreOutlined';
+import TimerOutlinedIcon from '@mui/icons-material/TimerOutlined';
+import AodOutlinedIcon from '@mui/icons-material/AodOutlined';
 
 const Footer = () => {
     return ( 
         <footer>
             <div className={css.footer__container}>
+                <div className={css.footer_quick_container}>
+                <div className={css.footer_quick_grocery}>
+                    <LocalGroceryStoreOutlinedIcon />
+                   </div>
+                <div className={css.footer_quick_text}>
+                    <ul className={css.footer_quick_textn}>
+                        <li className={css.footer_quick_gorcery_li}> <h3>БҮГДИЙГ НЭГ ДООРООС</h3> </li>
+                        <li>Duis irure dolor voluptate velit cilluт</li>
+                    </ul>
+                    </div>
+                <div className={css.footer_quick_timer}>
+                    <TimerOutlinedIcon />
+                   </div>
+                <div className={css.footer_quick_text}>
+                <ul className={css.footer_quick_textn}>
+                        <li><h3>ШУУРХАЙ ХҮРГЭЛТ</h3></li>
+                        <li>Duis irure dolor voluptate velit cilluт </li>
+                    </ul> 
+                </div>
+                <div className={css.footer_quick_aod}>
+                        <AodOutlinedIcon />
+                 
+                </div>
+
+                <div className={css.footer_quick_text}>
+                <ul className={css.footer_quick_textn}>
+                        <li ><h3>ӨРГӨН СОНГОЛТ</h3> </li>
+                        <li>Duis irure dolor voluptate velit cilluт </li>
+                    </ul>
+                </div>
               
+                </div>
+    
                 <div className={css.footer__items__container}>
 
                 <div className={css.footer__logo__container}>
