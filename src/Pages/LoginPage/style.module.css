@@ -1,0 +1,22 @@
+.Login {
+
+    background-color: white;
+    width: 1170px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.Login input {
+    display: block;
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+.Login button {
+    height: 30px;
+    width: 120px;
+}

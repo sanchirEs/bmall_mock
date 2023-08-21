@@ -1,0 +1,15 @@
+.Container {
+  align-items: center;
+  background-color: #f4f6f8;
+  display: flex;
+  justify-content: start;
+  padding: 0;
+  margin: 0;
+  width: 1170px;
+}
+
+.Rec {
+  width: 470px;
+  height: 70px;
+  background-color: #fff;
+}

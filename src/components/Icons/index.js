@@ -4,6 +4,7 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 
 import { HeartStraight, ShoppingCart, UserCircle } from "phosphor-react";
+import LoginPage from '../../Pages/LoginPage';
 
 export default function BasicMenu(props) {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -12,6 +13,7 @@ export default function BasicMenu(props) {
     setAnchorEl(event.currentTarget);
   };
   const handleClose = () => {
+    
     setAnchorEl(null);
   };
 
@@ -36,7 +38,12 @@ export default function BasicMenu(props) {
           'aria-labelledby': 'basic-button',
         }}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
+        <MenuItem 
+        onClick={handleClose} 
+        component={LoginPage}
+        href="https://www.toyota.com/priusprime/" > 
+          Profile
+        </MenuItem>
         <MenuItem onClick={handleClose}>My account</MenuItem>
         <MenuItem onClick={handleClose}>Logout</MenuItem>
       </Menu>
