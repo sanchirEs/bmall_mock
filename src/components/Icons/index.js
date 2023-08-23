@@ -4,7 +4,7 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 
 import { HeartStraight, ShoppingCart, UserCircle } from "phosphor-react";
-import LoginPage from '../../Pages/LoginPage';
+import LoginPage from '../../Pages/SignupPage';
 
 export default function BasicMenu(props) {
   const [anchorEl, setAnchorEl] = React.useState(null);

@@ -8,7 +8,7 @@ import HomePage from "../HomePage";
 import Footer from "../../components/footer/footer";
 import css from "./style.module.css"
 import ProfilePage from "../ProfilePage";
-import LoginPage from "../LoginPage";
+import SingupPage from "../SignupPage";
 
 
 const App = (props) => {
@@ -24,7 +24,7 @@ const App = (props) => {
         <Route path="/new" element={<NewProductPage />} />
         <Route path="/sale" element={<SaleProductPage />} />
         <Route path="/profile" element={<ProfilePage />} />
-        <Route path="/login" element={<LoginPage/>} />
+        <Route path="/login" element={<SingupPage/>} />
 
       </Routes>
       <Footer />
