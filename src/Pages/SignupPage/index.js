@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import css from "./style.module.css";
 import * as actions from "../../redux/actions/signupActions";
 import { connect } from "react-redux";
-import Logo from "../../components/Logo";
 
 const SingupPage = (props) => {
   const [email, setEmail] = useState("");
@@ -15,7 +14,6 @@ const SingupPage = (props) => {
 
   return (
     <div className={css.Login}>
-      <Logo />
       <input
         type="text"
         placeholder="email"
