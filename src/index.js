@@ -7,7 +7,7 @@ import { createStore, applyMiddleware, compose, combineReducers} from "redux";
 import { Provider } from "react-redux";
 import reducer from "./redux/reducers/reducer";
 import thunk from "redux-thunk";
-import signupReducer from "./redux/reducers/signupReducer"
+import signupReducer from "./redux/reducers/signupLoginReducer"
 
 
 const loggermidlleware = store => {

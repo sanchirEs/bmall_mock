@@ -25,12 +25,12 @@ export const signupUserStart = () => {
         type: "SIGNUP_USER_START"
     };
 };
-export const signupUserSuccess = firebaseResultData => {
+export const signupUserSuccess = data => {
     return {
         type: "SIGNUP_USER_SUCCESS",
         saving: false,
         error: null,
-        firebaseResultData
+        data
     };
 };
 export const signupUserError = error => {

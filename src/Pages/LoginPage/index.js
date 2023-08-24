@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import css from "./style.module.css";
-import * as actions from "../../redux/actions/signupActions";
+import * as actions from "../../redux/actions/loginActions";
 import { connect } from "react-redux";
 
-const SingupPage = (props) => {
+const LoginPage = (props) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  let signup = () => {
-    props.signupUser(email, password);
+  let login = () => {
+    props.login(email, password);
     alert(props.firebaseError);
   };
 
@@ -24,7 +24,7 @@ const SingupPage = (props) => {
         placeholder="password"
         onChange={(event) => setPassword(event.target.value)}
       />
-      <button onClick={signup}>signup</button>
+      <button onClick={login}>login</button>
 
       {props.firebaseError && (
         <div style={{ color: "red"}}>{props.firebaseError}</div>
@@ -35,7 +35,7 @@ const SingupPage = (props) => {
 
 const mapStateToProps = state => {
   return {
-    saving: state.signupReducer.saving,
+    loggingIn: state.signupReducer.saving,
     firebaseError: state.signupReducer.firebaseError,
     userId: state.signupReducer.userId
   }
@@ -43,9 +43,9 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    signupUser: (email, password) =>
-      dispatch(actions.signupUser(email, password)),
+    login: (email, password) =>
+      dispatch(actions.loginUser(email, password)),
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(SingupPage);
+export default connect(mapStateToProps, mapDispatchToProps)(LoginPage);

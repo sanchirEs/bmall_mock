@@ -8,7 +8,8 @@ import HomePage from "../HomePage";
 import Footer from "../../components/footer/footer";
 import css from "./style.module.css"
 import ProfilePage from "../ProfilePage";
-import SingupPage from "../SignupPage";
+import LoginPage from "../LoginPage";
+import SignupPage from "../SignupPage";
 
 
 const App = (props) => {
@@ -24,7 +25,8 @@ const App = (props) => {
         <Route path="/new" element={<NewProductPage />} />
         <Route path="/sale" element={<SaleProductPage />} />
         <Route path="/profile" element={<ProfilePage />} />
-        <Route path="/login" element={<SingupPage/>} />
+        <Route path="/login" element={<LoginPage/>} />
+        <Route path="/signup" element={<SignupPage/>} />
 
       </Routes>
       <Footer />
