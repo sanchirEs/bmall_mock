@@ -5,6 +5,7 @@
     background-color: white;
     margin: auto;
     align-self: center;
+    flex-direction: column;
 
 }
 
